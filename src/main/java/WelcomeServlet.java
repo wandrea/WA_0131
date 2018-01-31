@@ -14,7 +14,7 @@ public class WelcomeServlet extends HttpServlet{
         resp.setContentType("text/html");
 
         PrintWriter printer = resp.getWriter();
-
+//ide kerül majd egy olyan mint a loginservlet.....
         printer.write("<h1>welcome<h1>");
 
         printer.close();
